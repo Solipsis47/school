@@ -78,7 +78,8 @@ int main(void)
 	printf("  to longitude (d m s): ");
 	scanf("%lf %lf %lf", &longitude1[0], &longitude1[1], &longitude1[2]);
 
-	// Print result
+	// Print result; argument is the value returned by calling crowFly with
+	// latitude0, longitude0, latitude1, longitude1 passed
 	printf("distance: %.1f km\n", crowFly(latitude0, longitude0, latitude1, longitude1));
 
 	// Exit program
