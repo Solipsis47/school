@@ -36,7 +36,7 @@ int main(void)
 	scanf("%d", &max_rows);
 	// declare 2 arrays for loop
 	int oldRow[max_rows+1], newRow[max_rows+1];
-	
+
 	// pascal triangle loop
 	for (n = 0; n <= max_rows-1; n++) {
 		// indentation

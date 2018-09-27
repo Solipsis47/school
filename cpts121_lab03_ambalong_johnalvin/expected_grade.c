@@ -1,5 +1,5 @@
 /* 
-* Programmer: John Alvin Ambalong 
+* Programmer: John Alvin Ambalong
 * Class: CptS 121, Spring 2018
 * Programming lab: Lab 3
 * Date: 9/7/2018
@@ -11,15 +11,15 @@ int main(void)
 /*
 * The main function should implement these steps:
 *
-* 1. Prompt the user to enter the three double values and the final 
+* 1. Prompt the user to enter the three double values and the final
 *    letter grade(score1, score2, score3, final_score_letter)
 .
-* 2. Check to make sure the double is positive and the letter is 
+* 2. Check to make sure the double is positive and the letter is
 *    correct. If it isn't, printout an error message and exit.
 * 3. Implement this pseudocode:
 *    calculate the minimum numerical value for the final_score_letter
 *      use the formula to calculate the fourth score
-* 
+*
 *        score4 = 4*final_score-score1-score2-score3
 *	print the numerical grade for score4
 */

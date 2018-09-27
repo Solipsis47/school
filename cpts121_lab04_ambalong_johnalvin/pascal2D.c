@@ -14,7 +14,7 @@
 int main(void)
 {
 	int m, n, acum, pascal[MAX_ROWS+1][MAX_ROWS+1];
-	
+
 	for (n = 0; n <= MAX_ROWS-1; n++) {
                 for (m = 0; m <= MAX_ROWS-1; m++) {
                         pascal[n][m] = 0;
@@ -40,7 +40,7 @@ int main(void)
 			acum += pascal[n][m];
 		}
 	}
-	
+
 	printf("The sum: %d\n ", acum);
 
 	return 0;
