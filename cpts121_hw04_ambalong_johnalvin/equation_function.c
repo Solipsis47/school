@@ -42,7 +42,7 @@ int main(void)
 				printf("\nNewton's Second Law of Motion: force = mass * acceleration\n%.2f * %.2f = %.2f\n\n", mass, acceleration, calculate_newtons_2nd_law(mass, acceleration));
 			 break;
 			case 'v':
-	    case 'V':
+	    	case 'V':
 			 	radius = 0.0, height = 0.0;
 				printf("\nVolume of a cylinder\nEnter radius: ");
 				scanf("%f", &radius);
@@ -52,7 +52,7 @@ int main(void)
 				printf("\nVolume of a cylinder: volume_cylinder = PI * radius * radius * height\nPI * %.2f * %.2f * %.2f = %.2f\n\n", radius, radius, height, calculate_volume_cylinder(radius, height));
 			 break;
 			case 'c':
-	    case 'C':
+	    	case 'C':
 				plaintext_character = 0;
 				printf("\nCharacter encoding\nEnter character: ");
 				scanf(" %c", &plaintext_character);
@@ -60,7 +60,7 @@ int main(void)
 				printf("\nCharacter encoded: %c\n\n", perform_character_encoding(plaintext_character));
 			 break;
 			case 'g':
-	    case 'G':
+	    	case 'G':
 				mass1 = 0.0, mass2 = 0.0, distance = 0.0;
 				printf("\nGravity formula\nEnter mass 1: ");
 				scanf("%f", &mass1);
@@ -72,7 +72,7 @@ int main(void)
 				printf("\nGravity formula: force = G * (( mass1 * mass2) / (distance * distance))\n G * ((%.2f * %.2f) / (%.2f * %.2f)) = %.2f\n\n", mass1, mass2, distance, distance, calculate_gravity_force(mass1, mass2, distance));
 			 break;
 			case 'r':
-	    case 'R':
+	    	case 'R':
 				resistance1 = 0.0, resistance2 = 0.0, vin = 0.0;
 				printf("\nResistive divider\nEnter resistor value 1: ");
 				scanf("%f", &resistance1);
@@ -84,7 +84,7 @@ int main(void)
 				printf("\nResistive divider: vout = (r2 / (r1 + r2)) * vin = (%.2f / (%.2f + %.2f)) * %.2f = %.2f\n\n", resistance2, resistance1, resistance2, vin, calculate_resistive_divider(resistance1, resistance2, vin));
 			 break;
 			case 'd':
-	    case 'D':
+	    	case 'D':
 				x1 = 0.0, x2 = 0.0, y1 = 0.0, y2 = 0.0;
 				printf("\nDistance between two points\nEnter x1: ");
 				scanf("%f", &x1);
@@ -98,7 +98,7 @@ int main(void)
 				printf("\nDistance between two points: distance = sqrt (((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2))) = sqrt (((%.2f - %.2f)*(%.2f - %.2f)) + ((%.2f - %.2f) * (%.2f - %.2f))) = %.2f\n\n", x1, x2, x1, x2, y1, y2, y1, y2, calculate_distance_between_2pts(x1, x2, y1, y2));
 			 break;
 			case 'e':
-	    case 'E':
+	    	case 'E':
 				z = 0.0, x = 0.0, a = 0;
 				printf("\nGeneral equation:\nEnter z value: ");
 				scanf("%f", &z);
