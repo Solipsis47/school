@@ -27,9 +27,9 @@ int main(void)
 		scanf(" %c", &equation);
 
 		// use switch statement for equations
-    // prompt inputs in main()
-    // print result with the argument returned by calling the proper equation function
-    // with the proper parameter inputs passed
+    	// prompt inputs in main()
+    	// print result with the argument returned by calling the proper equation function
+    	// with the proper parameter inputs passed
 		switch (equation) {
 			case 'n':
 			case 'N':
