@@ -1,3 +1,3 @@
 # School Work
 
-A repository for my current school work
+A backup repository for my current school work
